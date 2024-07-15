@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+body{
+    background-color: #faf7ea;
+}
+@font-face{
+    font-family: delinda agatha;
+    src: url(delinda.ttf);
+}
+
+h1{
+    font-family: delinda agatha;
+    text-align: center;
+    color: #82301a;
+    font-size: 70px;
+}
+
+h2{
+    font-family: delinda agatha;
+    text-align: center;
+    color:#224b0c;
+    font-size: 55px;
+}
+.segundo{
+    color:#82301a;
+}
+.panel-heading{
+    color: black;
+    font-family:cursive;
+    font-weight: bold;
+}
+label{
+    color: black;
+    font-family: cursive;
+}
+h3{
+    font-family: delinda agatha;
+    text-align: center;
+    font-size: 50px;
+    color:#82301a;
+}
+.text-primary {
+    font-size: 1em; /* Ajusta el tamaño de fuente según sea necesario */
+    white-space: nowrap; /* Evita que el texto se pase a la siguiente línea */
+    overflow-x: auto; /* Oculta cualquier texto que se desborde del contenedor */
+    max-width: 100%; /* Establece un ancho máximo para el texto */
+}
+/* Estilo para los h5 */
+
+h5 {
+    overflow-x: auto; /* Habilita la barra de desplazamiento horizontal si el contenido se desborda */
+    white-space: nowrap; /* Asegura que el texto se mantenga en una sola línea */
+    max-width: 100%; /* Establece un ancho máximo para el contenedor del texto */
+}
+.img-responsive {
+    display: block; /* Hace que la imagen se comporte como un bloque */
+    margin-left: auto; /* Margen automático a la izquierda */
+    margin-right: auto; /* Margen automático a la derecha */
+    width: 100%; /* Ancho al 100% para que sea responsive */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+#carrusel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#myCarousel {
+    margin: auto; /* Esto centra el carrusel horizontalmente */
+  }
+
+.ultimos{
+    font-family: cursive;
+    color: black;
+}
+/* Estilos para el Pie de Página */
+.footer-container {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-icons a {
+    color: #333;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+.facebook:hover {
+    color: #007bff; 
+}
+
+.instagram:hover {
+    color: #bc2a8d; 
+}
+
+.whatsapp:hover {
+    color: #25d366; 
+}
+
+.rights {
+    margin-top: 10px;
+}
+
